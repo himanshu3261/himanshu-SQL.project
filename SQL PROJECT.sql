@@ -95,6 +95,8 @@ group by photos.id
 order by count(photo_id) desc limit 1;
 
 -- how many times does the average users post.
+select * from users;
+
 
 
 -- what are the top 5 most common used hashtags
